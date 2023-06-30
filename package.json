@@ -1,5 +1,5 @@
 {
-  "name": "teste-leadster",
+  "name": "test-leadster",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -17,6 +17,13 @@
     "next": "13.4.7",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "styled-components": "^6.0.1",
     "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.26"
+  },
+  "resolutions": {
+    "styled-components": "^5"
   }
 }

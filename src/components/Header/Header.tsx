@@ -1,6 +1,6 @@
 import Image from "next/image";
 import logo from '../../app/assets/logo.png'
-import { HeaderStyle } from "./header.styled";
+import { HeaderStyle } from "./header";
 
 export default function Header(){
     return (

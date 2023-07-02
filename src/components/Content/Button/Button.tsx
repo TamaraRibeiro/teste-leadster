@@ -1,4 +1,4 @@
-import { ButtonStyle } from './button.styled';
+import { ButtonStyle } from './button';
 
 interface ButtonProps{
     text: string;
@@ -6,7 +6,7 @@ interface ButtonProps{
 
 export default function Button(props: ButtonProps){
     return(
-        <ButtonStyle>
+        <ButtonStyle $selected>
             {props.text}
         </ButtonStyle>
     )

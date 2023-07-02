@@ -1,27 +1,35 @@
-import Button from "../Button/Button";
-import { Section, DivOne } from "./content.styled";
+import Button from "./Button/Button";
+import { Section, DivOne, DivButton, DivDate, Select } from "./content";
+import PageNumbers from "../PageNumbers/PageNumbers";
+import CardsContent from "../CardsContent/CardsContent";
 
 export default function Content() {
   return (
-    <Section>
+  <Section>
+      {/* Div Buttons and Order */}
       <DivOne>
-        <div>
+        <DivButton>
           <Button text="Agências" />
           <Button text="Chatbot" />
           <Button text="Marketing Digital" />
           <Button text="Geração de Leads" />
           <Button text="Mídia Paga" />
-        </div>
+        </DivButton>
 
-        <div>
-          <select>
-
-            <option value='date'>
-              Data de publicação
-            </option>
-          </select >
-        </div>
+        <DivDate>
+          <p>Ordenar por</p>
+          <Select>
+            <option value="date">Data de Publicação</option>
+          </Select>
+        </DivDate>
       </DivOne>
-    </Section>
+
+      {/* Div Content Cards */}
+      <CardsContent />
+
+      {/* Div Pages */}
+     <PageNumbers />
+    </Section> 
+    
   );
 }

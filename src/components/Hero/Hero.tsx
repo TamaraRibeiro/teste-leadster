@@ -1,4 +1,4 @@
-import { HeroStyle, Text, TitleTwo, TitleOne, Img, Webinar } from "./hero.styled";
+import { HeroStyle, Text, TitleTwo, TitleOne, Img, Webinar } from "./hero";
 import Image from "next/image";
 import asset from "../../app/assets/asset-header.png";
 

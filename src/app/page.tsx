@@ -1,5 +1,5 @@
 "use client";
-import CardsContent from "@/components/CardsContent/CardsContent";
+
 import Content from "@/components/Content/Content";
 import Copyright from "@/components/Copyright/Copyright";
 import Footer from "@/components/Footer/Footer";

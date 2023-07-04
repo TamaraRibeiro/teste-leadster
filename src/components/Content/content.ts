@@ -23,7 +23,6 @@ export const DivButton = styled.div`
   gap: 0.8rem;
   padding-right: 4rem;
   justify-content: space-between;
-  /* background-color: red; */
 `;
 
 export const DivDate = styled.div`
@@ -40,14 +39,6 @@ export const Select = styled.select`
   border-radius: 0.5rem;
   background-color: #ffffff;
   font-weight: 400;
-  /* &:selection {
-    position: absolute;
-    content: "";
-    top: 14px;
-    right: 10px;
-    width: 0;
-    height: 0;
-    border: 6px solid transparent;
-    border-color: #000000 transparent transparent transparent;
-  } */
 `;
+
+

@@ -6,7 +6,7 @@ interface ButtonProps{
 
 export default function Button(props: ButtonProps){
     return(
-        <ButtonStyle $selected>
+        <ButtonStyle>
             {props.text}
         </ButtonStyle>
     )

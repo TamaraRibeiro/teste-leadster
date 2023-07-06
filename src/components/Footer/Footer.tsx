@@ -11,7 +11,9 @@ import {
   TextContentSocial,
   SocialButtons,
 } from "./footer";
-import { ColumnLinks, ListProps } from "./ColumnLinks/ColumnLinks";
+import { ColumnLinks } from "./ColumnLinks/ColumnLinks";
+import { ListProps } from '@/app/@types/types';
+
 import {
   FacebookWithCircle,
   InstagramWithCircle,
@@ -51,7 +53,7 @@ export default function Footer() {
 
   return (
     <FooterStyle>
-      {/* Div Logo */}
+      
       <DivLogo>
         <Image alt="logo" src={logo} />
         <Text>Transformando visitantes em clientes.</Text>

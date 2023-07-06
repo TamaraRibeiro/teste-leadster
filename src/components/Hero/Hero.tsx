@@ -8,7 +8,7 @@ export default function Hero() {
         <Webinar>Webinars exclusivos</Webinar> 
       <TitleOne>Menos Conversinha,</TitleOne>
       <TitleTwo>
-        Mais conversão{" "}
+        Mais conversão
         <Img>
           <Image alt="" src={asset} />
         </Img>

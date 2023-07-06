@@ -2,6 +2,7 @@
 
 import { styled } from "styled-components";
 import { StyledIconBase } from "@styled-icons/styled-icon";
+import { device } from "@/styles/breakpoint";
 
 export const FooterStyle = styled.footer`
   margin: 0 auto;
@@ -26,9 +27,16 @@ export const Text = styled.p`
 `;
 
 export const DivLinks = styled.div`
-  padding-top: 1rem;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+
+  @media ${device.laptop} {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4rem;
+  }
 `;
 
 export const DivColumnSocial = styled.div`
@@ -39,7 +47,7 @@ export const DivColumnSocial = styled.div`
 export const TitleColumnSocial = styled.p`
   font-weight: 600;
   font-size: 14px;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 `;
 
 export const TextCaption = styled.p`
@@ -61,10 +69,13 @@ export const SocialButtons = styled.div`
   justify-content: space-between;
   margin-right: 4rem;
   margin-bottom: 1.5rem;
+  @media ${device.mobileL} {
+    display: flex;
+    justify-content: start;
+    gap: 0.5rem;
+  }
   ${StyledIconBase} {
     color: #e8eaf0;
     width: 2.2rem;
   }
 `;
-
-

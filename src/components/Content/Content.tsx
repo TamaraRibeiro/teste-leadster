@@ -5,8 +5,7 @@ import CardsContent from "../CardsContent/CardsContent";
 
 export default function Content() {
   return (
-  <Section>
-      {/* Div Buttons and Order */}
+    <Section>
       <DivOne>
         <DivButton>
           <Button text="Agências" />
@@ -24,12 +23,9 @@ export default function Content() {
         </DivDate>
       </DivOne>
 
-      {/* Div Content Cards */}
       <CardsContent />
 
-      {/* Div Pages */}
-     <PageNumbers />
-    </Section> 
-    
+      <PageNumbers />
+    </Section>
   );
 }

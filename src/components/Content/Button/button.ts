@@ -1,5 +1,6 @@
 "use client";
 
+import { device } from "@/styles/breakpoint";
 import { styled } from "styled-components";
 
 export const ButtonStyle = styled.button`

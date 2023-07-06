@@ -1,14 +1,5 @@
+import { ListProps } from '@/app/@types/types';
 import { Text, PageLink, DivColumnLinks } from "./columnLinks";
-
-export interface ListProps {
-  title: string;
-  linkHref: [
-    {
-      name: string;
-      linkRoute: string;
-    }
-  ];
-}
 
 export function ColumnLinks(props: ListProps) {
   return (

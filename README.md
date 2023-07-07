@@ -25,7 +25,7 @@ Baixe o projeto do repositório fazendo download do arquivo ZIP ou clonando em s
 Instale as dependências do projeto pelo comando:
 
 ```bash
-npm instal
+npm install
 # ou
 yarn install
 # ou

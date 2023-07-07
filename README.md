@@ -31,6 +31,7 @@ yarn install
 # ou
 pnpm install
 ```
+
 Após instaladas, rode o projeto pelo comando:
 
 ```bash

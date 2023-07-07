@@ -13,10 +13,8 @@ export const metadata = {
 };
 
 export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+  children
+}: any) {
   return (
     <html lang="en">
         <body className={plus_jakarta.className}>{children}</body>

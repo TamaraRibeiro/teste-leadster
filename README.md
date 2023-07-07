@@ -5,7 +5,7 @@
 ## Decisões tomadas
 
 1. Verificação das tecnologias utilizadas na aplicação;
-2. Pesquisa documentação das tecnologias;
+2. Pesquisa da documentação das tecnologias;
 3. Criação do repositório no GitHub;
 4. Criação do projeto utilizando Next.js;
 
@@ -13,7 +13,7 @@
 
 O projeto foi organizado da seguinte forma:
 
-- Pasta Src contém o projeto em seu todoç
+- Pasta Src contém o projeto em seu todo;
 - Pasta App contém os arquivos principais de rotas, Assets e tipagem necessárias do projeto;
 - Pasta Components contém todos os componentes utilizados para renderização da página;
 - Pasta Styles contẽm os arquivos de padronização global de estilização.

@@ -4,12 +4,10 @@ export interface ButtonProps {
 
 export interface ListProps {
   title: string;
-  linkHref: [
-    {
-      name: string;
-      linkRoute: string;
-    }
-  ];
+  linkHref: { 
+    name: string; 
+    linkRoute: string; 
+  }[];
 }
 
 export interface CardProps {
